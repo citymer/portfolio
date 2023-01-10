@@ -97,9 +97,14 @@ h2 {
   width: 300px;
   margin-top: 60px;
   margin-bottom: 30px;
+  transition-duration: 0.8s;
+  transition-property: transform;
 }
 .github:hover {
-  width: 320px;
+  transform: rotateX(360deg);
+  background-color: beige;
+  padding: 15px;
+  border-radius: 20px;
 }
 /* ---------------  RESPONSIVE ----------- */
 
