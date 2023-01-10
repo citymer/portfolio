@@ -16,13 +16,16 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
+  height: 995px;
 }
+
 .taille {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   border: black solid 1px;
   object-fit: cover;
+  margin-top: 15px;
 }
 h1 {
   color: black;
@@ -30,14 +33,29 @@ h1 {
 a {
   text-decoration: none;
 }
+.link {
+  transition-duration: 1s;
+}
+.link:hover {
+  background-color: beige;
+  border-radius: 25px;
+}
 h2 {
   font-size: 16px;
   color: black;
   width: 225px;
+  margin-bottom: 10px;
+}
+.contentGithub {
+  height: 40px;
 }
 .github {
   width: 300px;
-  margin-top: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.github:hover {
+  width: 320px;
 }
 /* ---------------  RESPONSIVE ----------- */
 
@@ -50,9 +68,19 @@ h2 {
   .alignement {
     grid-template-columns: 1fr 1fr;
   }
+  .App-header {
+    justify-content: flex-start;
+    height: 1800px;
+  }
+  .github {
+    margin-top: 610px;
+  }
 }
 @media screen and (max-width: 576px) {
   .alignement {
     grid-template-columns: 1fr;
+  }
+  .github {
+    margin-top: 1920px;
   }
 }

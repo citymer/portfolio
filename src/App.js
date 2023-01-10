@@ -102,7 +102,7 @@ function App() {
             <h2>Développer un tableau de bord d'analytics avec React</h2>
           </a>
         </div>
-        <div>
+        <div className="contentGithub">
           <a href="https://github.com/citymer?tab=repositories">
             <img src={github} alt="lien github" className="github" />
           </a>
