@@ -32,6 +32,50 @@ h1 {
 }
 a {
   text-decoration: none;
+  opacity: 0;
+  animation: apparition 2s linear;
+  animation-fill-mode: forwards;
+}
+@keyframes apparition {
+  0% {
+    opacity: 0;
+    margin-top: 5rem;
+  }
+  50% {
+    margin-top: 3rem;
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 2rem;
+  }
+}
+a:nth-child(1) {
+  animation-delay: 0.2s;
+}
+a:nth-child(2) {
+  animation-delay: 0.8s;
+}
+a:nth-child(3) {
+  animation-delay: 1.4s;
+}
+a:nth-child(4) {
+  animation-delay: 2s;
+}
+a:nth-child(5) {
+  animation-delay: 2.6s;
+}
+a:nth-child(6) {
+  animation-delay: 3.2s;
+}
+a:nth-child(7) {
+  animation-delay: 3.8s;
+}
+a:nth-child(8) {
+  animation-delay: 4.4s;
+}
+a:nth-child(9) {
+  animation-delay: 5s;
 }
 .link {
   transition-duration: 1s;
@@ -51,7 +95,7 @@ h2 {
 }
 .github {
   width: 300px;
-  margin-top: 30px;
+  margin-top: 60px;
   margin-bottom: 30px;
 }
 .github:hover {
@@ -73,7 +117,7 @@ h2 {
     height: 1800px;
   }
   .github {
-    margin-top: 610px;
+    margin-top: 770px;
   }
 }
 @media screen and (max-width: 576px) {
@@ -81,6 +125,6 @@ h2 {
     grid-template-columns: 1fr;
   }
   .github {
-    margin-top: 1920px;
+    margin-top: 2200px;
   }
 }
