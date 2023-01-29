@@ -8,6 +8,7 @@ import food from './assets/ohmyfood.PNG'
 import reservia from './assets/reservia.PNG'
 import sport from './assets/sporsee.PNG'
 import github from './assets/GitHub-LogoPNG1.png'
+import cv from './assets/CVweb.PNG'
 import './App.css'
 
 function App() {
@@ -16,6 +17,15 @@ function App() {
       <header className="App-header">
         <h1>Portfolio</h1>
         <div className="alignement">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://citymer.github.io/cv/"
+            className="link"
+          >
+            <img src={cv} alt="moniteur" className="taille" />
+            <h2>CV version web</h2>
+          </a>
           <a
             target="_blank"
             rel="noreferrer"
