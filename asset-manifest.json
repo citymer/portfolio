@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f203a0d2.css",
-    "main.js": "/portfolio/static/js/main.2bf1a406.js",
+    "main.css": "/portfolio/static/css/main.0a2850c3.css",
+    "main.js": "/portfolio/static/js/main.0d85aab4.js",
     "static/media/gameOn.PNG": "/portfolio/static/media/gameOn.bd2c7f1a4a4c69502470.PNG",
     "static/media/CVweb.PNG": "/portfolio/static/media/CVweb.e8f4955b557d320a9b2b.PNG",
     "static/media/argentbank.PNG": "/portfolio/static/media/argentbank.1164fe02f201b1b8c968.PNG",
@@ -14,11 +14,11 @@
     "static/media/hrnet.PNG": "/portfolio/static/media/hrnet.98018644ea14800781de.PNG",
     "static/media/maquetteFigma.PNG": "/portfolio/static/media/maquetteFigma.79ceb07791deda1e6a99.PNG",
     "index.html": "/portfolio/index.html",
-    "main.f203a0d2.css.map": "/portfolio/static/css/main.f203a0d2.css.map",
-    "main.2bf1a406.js.map": "/portfolio/static/js/main.2bf1a406.js.map"
+    "main.0a2850c3.css.map": "/portfolio/static/css/main.0a2850c3.css.map",
+    "main.0d85aab4.js.map": "/portfolio/static/js/main.0d85aab4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f203a0d2.css",
-    "static/js/main.2bf1a406.js"
+    "static/css/main.0a2850c3.css",
+    "static/js/main.0d85aab4.js"
   ]
 }
