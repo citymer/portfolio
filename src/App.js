@@ -10,13 +10,38 @@ import sport from './assets/sporsee.PNG'
 import github from './assets/GitHub-LogoPNG1.png'
 import cv from './assets/CVweb.PNG'
 import './App.css'
+import React, { useState } from 'react'
 
 function App() {
+  const [backgroundColor, setBackroundColor] = useState('black')
   return (
     <div className="App">
-      <header className="App-header">
+      <header
+        className="App-header"
+        style={{ backgroundColor: backgroundColor }}
+      >
         <h1>Portfolio</h1>
-        <div className="alignement">
+        <div className="contentButton black">
+          <button className="button" onClick={() => setBackroundColor('black')}>
+            BLACK
+          </button>
+          <button
+            className="button"
+            onClick={() => setBackroundColor('#640808')}
+          >
+            RED
+          </button>
+          <button
+            className="button"
+            onClick={() => setBackroundColor('#0d320d')}
+          >
+            GREEN
+          </button>
+        </div>
+        <div
+          className="alignement"
+          style={{ backgroundColor: backgroundColor }}
+        >
           <a
             target="_blank"
             rel="noreferrer"

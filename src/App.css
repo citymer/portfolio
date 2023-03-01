@@ -3,7 +3,7 @@
 }
 
 .App-header {
-  background-color: white;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 30px;
-  height: 995px;
+  background-color: rgb(136, 4, 4);
+  padding: 10px;
+  border-radius: 15px;
 }
 
 .taille {
@@ -28,8 +30,50 @@
   margin-top: 15px;
 }
 h1 {
-  color: black;
+  color: white;
 }
+.contentButton {
+  width: 280px;
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  padding: 6px 15px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  background: transparent;
+  position: relative;
+  transition: all 0.25s;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+.button::after,
+.button::before {
+  border: 3px solid white;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: all 0.25s;
+}
+.button:hover::after {
+  transform: translate(-4px, -4px);
+}
+.button:hover::before {
+  transform: translate(4px, 4px);
+}
+h2 {
+  font-size: 16px;
+  color: white;
+
+  width: 225px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black,
+    0 0 2px black;
+}
+
 a {
   text-decoration: none;
   opacity: 0;
@@ -88,12 +132,6 @@ a:nth-child(10) {
   background-color: beige;
   border-radius: 25px;
 }
-h2 {
-  font-size: 16px;
-  color: black;
-  width: 225px;
-  margin-bottom: 10px;
-}
 .contentGithub {
   height: 40px;
 }
@@ -123,17 +161,20 @@ h2 {
   }
   .App-header {
     justify-content: flex-start;
-    height: 1800px;
+    height: 2000px;
   }
   .github {
-    margin-top: 770px;
+    margin-top: 90px;
   }
 }
 @media screen and (max-width: 576px) {
+  .App-header {
+    height: 3700px;
+  }
   .alignement {
     grid-template-columns: 1fr;
   }
   .github {
-    margin-top: 2200px;
+    margin-top: 90px;
   }
 }
