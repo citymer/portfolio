@@ -20,7 +20,11 @@ function App() {
         className="App-header"
         style={{ backgroundColor: backgroundColor }}
       >
-        <h1>Portfolio</h1>
+        <div className="contentPortfolio">
+          <p>
+            <span>Portfolio</span>
+          </p>
+        </div>
         <div className="contentButton black">
           <button className="button" onClick={() => setBackroundColor('black')}>
             BLACK
