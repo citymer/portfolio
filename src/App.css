@@ -60,6 +60,7 @@ p span::after {
   animation: slide-in 0.75s ease-out forwards,
     slide-out 0.75s 1s ease-out forwards;
 }
+/* animation */
 @keyframes slide-in {
   100% {
     transform: translateX(0%);
