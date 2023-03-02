@@ -56,7 +56,7 @@ p span::after {
   top: 0;
   left: 0;
   transform: translateX(-100%);
-  background: crimson;
+  background: black;
   animation: slide-in 0.75s ease-out forwards,
     slide-out 0.75s 1s ease-out forwards;
 }
